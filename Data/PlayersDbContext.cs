@@ -1,17 +1,18 @@
-﻿using System;
+﻿using EntityFramework6.Models;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EntityFramework6
+namespace EntityFramework6.Data
 {
     public class PlayersDbContext: DbContext        
     {
 
         public PlayersDbContext()
-            : base(nameOrConnectionString: "players")
+            : base(nameOrConnectionString: "entityframework6")
         {
 
         }

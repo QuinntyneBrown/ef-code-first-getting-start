@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EntityFramework6
+namespace EntityFramework6.Models
 {
-    public class Player
+    public class Team
     {
         public int Id { get; set; }
+
         public string Name { get; set; }
     }
 }

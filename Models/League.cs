@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EntityFramework6
+namespace EntityFramework6.Models
 {
-    public class Team
+    public class League
     {
         public int Id { get; set; }
 

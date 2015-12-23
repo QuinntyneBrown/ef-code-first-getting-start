@@ -48,13 +48,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="League.cs" />
+    <Compile Include="Models\League.cs" />
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Player.cs" />
-    <Compile Include="PlayersDbContext.cs" />
+    <Compile Include="Models\Player.cs" />
+    <Compile Include="Data\PlayersDbContext.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Team.cs" />
+    <Compile Include="Models\Team.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

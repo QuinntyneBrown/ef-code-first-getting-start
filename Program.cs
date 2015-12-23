@@ -1,4 +1,6 @@
-﻿using System;
+﻿using EntityFramework6.Data;
+using EntityFramework6.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +12,7 @@ namespace EntityFramework6
     {
         static void Main(string[] args)
         {
-            PlayersDbContext context = new PlayersDbContext();
+            var context = new PlayersDbContext();
 
             var player = context.Players.Where(x => x.Name == "LeBron").First();
  
